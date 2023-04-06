@@ -1,0 +1,31 @@
+{% extends "expenses/base.html" %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div class="month-container">
+    <a href="{% url 'login' %}" class="month">January 2022</a>
+    <a href="{% url 'login' %}" class="month">February 2022</a>
+    <a href="{% url 'login' %}" class="month">March 2022</a>
+</div>
+<div class="month-container">
+    <a href="{% url 'login' %}" class="month">April 2022</a>
+    <a href="{% url 'login' %}" class="month">May 2022</a>
+    <a href="{% url 'login' %}" class="month">June 2022</a>
+</div>
+<div class="month-container">
+    <a href="{% url 'login' %}" class="month">July 2022</a>
+    <a href="{% url 'login' %}" class="month">August 2022</a>
+    <a href="{% url 'login' %}" class="month">September 2022</a>
+</div>
+<div class="month-container">
+    <a href="{% url 'login' %}" class="month">October 2022</a>
+    <a href="{% url 'login' %}" class="month">November 2022</a>
+    <a href="{% url 'login' %}" class="month">December 2022</a>
+</div>
+{% else %}
+<h1 class="homepage-title">Welcome to Expenses Tracker!</h1>
+<h2 class="homepage-sub">Please login to begin your financial journey.</h2>
+{% endif %}
+{% endblock %}

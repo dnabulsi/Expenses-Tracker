@@ -1,0 +1,79 @@
+.navbar-link {
+  color: rgb(255, 253, 247);
+  margin: 25px;
+}
+
+.navbar-link:hover{
+  text-decoration: none;
+  color: rgb(255, 253, 247);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  background-color:rgb(237,109,85);
+  border-radius: 15px;
+  padding: 0px 10px;
+  margin: 0px 25px;
+}
+
+.navbar-light {
+  background-color:rgb(48,78,97);
+}
+
+#navbar-brand {
+  color: rgb(255, 253, 247);
+}
+
+main {
+  padding: 60px 50px;
+  height: 100%;
+  background-color: rgb(255, 253, 247);
+  width: 100%;
+  position:fixed;
+}
+
+.month-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.month {
+  font-weight:300;
+  display:inline;
+  background-color: rgb(237,109,85);
+  color: white;
+  padding: 20px 20px;
+  font-size: 50px;
+  width: calc(100% / 3);
+  text-align: center;
+  position: relative;
+  margin: 15px;
+  border-radius: 15px;
+  border-color: transparent;
+}
+
+.month:hover {
+  background-color: rgb(237, 93, 68);
+  font-weight:450;
+  color: white;
+  text-decoration: none;
+}
+
+.homepage-title {
+  font-size: 80px;
+  text-align: center;
+}
+
+.homepage-sub {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
